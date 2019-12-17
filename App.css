@@ -1,0 +1,115 @@
+
+.input_text{
+  margin-left: 20%;
+
+}
+
+h2 {
+  padding: 10px 0;
+  background: #43d1af;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  font: 140% Arial,Helvetica,sans-serif;
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  font: 140% Arial,Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #34495E;
+}
+
+p {
+  text-align: center;
+}
+
+#leftP{
+  text-align: left;
+}
+
+input{
+  font: 105% Arial,Helvetica,sans-serif;
+  width:298px;
+  margin:auto;
+  background-color: lightblue
+}
+
+.Head {
+ grid-area: header;
+}
+
+.leftMenu {
+  grid-area: menu;
+  display: inline-block;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  float: left;
+}
+.leftpart {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  float: left;
+}
+
+button {
+  border-radius: 4px;
+  background-color: beige;
+  text-decoration-color: #eeeeee;
+}
+
+#nav{
+  border-radius: 4px;
+  background-color: beige;
+  text-decoration-color: #eeeeee;
+  float: right;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  float: left;
+  top: 70%;
+  left: 70%;
+  width:40em;
+  height:20em;
+  margin-top: -7em; /*set to a negative number 1/2 of your height*/
+  margin-left: 10em;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+  margin:0;
+}
+
+#Login{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  margin:auto;
+  padding-bottom: 10px;
+}
+
+#afterLogin{
+   display: none;
+ }
